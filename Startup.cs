@@ -96,7 +96,7 @@ namespace ApiRestNetCore2x
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SmartEnterprise API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "EFExample API V1");
                 c.RoutePrefix = string.Empty;
             });
             app.UseMvc();
